@@ -1,12 +1,13 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/"><i class="fa fa-home"></i> Home</router-link> 
+    
   </nav>
   <router-view/>
 </template>
 
 <style>
+@import "https://use.fontawesome.com/releases/v5.2.0/css/all.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
